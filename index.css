@@ -1,6 +1,7 @@
 h1, h2, h3, p, span {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 html, head, body {
@@ -9,7 +10,7 @@ html, head, body {
 }
 
 .grad {
-    background: linear-gradient(270deg, #001e1c, #005043, #189494, #d22fe7, purple);
+    background: linear-gradient(270deg, #001e1c, #367268, #189494, #d22fe7, purple);
     background-size: 800% 800%;
 
     -webkit-animation: grad 30s ease infinite;
@@ -44,3 +45,18 @@ html, head, body {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+.bottom {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    margin-top: 50%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+
